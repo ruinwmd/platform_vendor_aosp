@@ -14,7 +14,7 @@
 
  include vendor/aosp/config/version.mk
 
-PRODUCT_BRAND ?= AEX
+PRODUCT_BRAND ?= AEX-MOD
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -61,12 +61,12 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     Stk \
-    ViaBrowser \
-    AEXPapers \
-    RetroMusicPlayer \
+#   ViaBrowser \
+#   AEXPapers \
+#   RetroMusicPlayer \
     WallpaperPickerGoogle \
     MarkupGoogle \
-    WellbeingPrebuilt \
+#   WellbeingPrebuilt \
     Recorder \
     WeatherClient
 
